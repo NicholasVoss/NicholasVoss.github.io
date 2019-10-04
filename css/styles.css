@@ -1,35 +1,65 @@
 body{
-  background-color:#1089ff;
-  color:#c0ffb3;
+  background-color:#394a6d;
+  color:black;
   margin-bottom: 750px;
 }
+
 hr{
   background-color:#c0ffb3;
-  border-style: none;
-  height:1px;
 }
+
 img{
   width:100px;
   float:left;
 }
-#indexHeader{
-  text-indent: 20px;
-}
-h1{
-  color:#52de97;
-}
-h3{
-  color:#52de97;
-}
+
 table{
   background-color:#3c9d9b;
 }
+
 ul{
   list-style-type: square;
 }
+
 ol{
   list-style-type: upper-roman;
 }
+
 a{
-  color:#394a6d;
+  color:black;
+}
+
+.dottedborder{
+  border-style: dotted;
+  border-color: black;
+  border-width:2px;
+}
+
+.bluetext{
+  color: #52de97;
+}
+
+#personalInfo{
+  background-color: #3c9d9b;
+}
+
+#professionalInfo{
+  background-color: #3c9d9b;
+
+}
+
+img{
+  border: 1px solid black;
+  border-radius: 8px;
+  border-spacing: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+
+}
+
+div{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+
+.imageTable{
+  border-spacing: 10px;
 }
